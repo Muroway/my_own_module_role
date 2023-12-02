@@ -1,5 +1,5 @@
 ---
-- name: call my_own_module
+- name: Call my_own_module
   my_own_module:
-    path: {{ default_path }}
-    content: {{ default_content }}
+    path: "{{ idefault_path }}"
+    content: "{{ default_content }}"
