@@ -1,6 +1,4 @@
 ---
-# tasks file for my_own_module_role
----
 - name: call my_own_module
   my_own_module:
     path: {{ default_path }}
